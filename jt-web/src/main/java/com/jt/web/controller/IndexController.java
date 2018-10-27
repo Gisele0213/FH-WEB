@@ -9,4 +9,9 @@ public class IndexController {
 	public String goIndex(){
 		return "index";//WEB-INF/views/index/jsp
 	}
+	
+	@RequestMapping("index")
+	public String goNext(){
+		return "index";//WEB-INF/views/index/jsp
+	}
 }
